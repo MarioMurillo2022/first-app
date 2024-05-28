@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TortugaComponent } from './tortuga.component';
+import { GaleriaComponent } from './galeria.component';
 
-describe('TortugaComponent', () => {
-  let component: TortugaComponent;
-  let fixture: ComponentFixture<TortugaComponent>;
+describe('GaleriaComponent', () => {
+  let component: GaleriaComponent;
+  let fixture: ComponentFixture<GaleriaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TortugaComponent]
+      imports: [GaleriaComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(TortugaComponent);
+    fixture = TestBed.createComponent(GaleriaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
